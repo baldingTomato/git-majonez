@@ -1,0 +1,42 @@
+491  mkdir git-majonez
+492  cd git-majonez
+493  git init
+494  touch main.cpp
+495  git status
+496  git add main.cpp
+497  git commit -m "Initial commit"
+498  git add main.cpp
+499  git status
+500  git commit -m "Farewell changed"
+501  git remote add origin https://github.com/baldingTomato/git-majonez.git
+502  git push -u origin master
+503  git branch cs
+504  git status
+505  ls
+506  git log
+507  cat main.cpp
+508  git reset --hard 018ae4f2d7753dd3c6e6a34c2e907491149d3e37
+509  cat main.cpp
+510  git log
+511  git status
+512  git status
+513  git add main.cpp
+514  git status
+515  git commit -m "Greetings"
+516  git log
+517  git push origin cs
+518  git status
+519  git checkout master
+520  git branch
+521  git status
+522  git merge cs
+523  git status
+524  git status
+525  git add main.cpp
+526  git status
+527  git commit
+528  git status
+529  git log
+530  history
+531  touch history.txt
+532  history
